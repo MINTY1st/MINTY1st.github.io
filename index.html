@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+    <title>Feelic</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/fontello.css">
+    <link rel="stylesheet" type="text/css" href="css/animation.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="img-back">
+        <div class="img-color">
+            <header class="header">
+                <p class="site-title-sub">さあ、聴いてみましょう</p>
+                <h1 class="site-title">今、どんな気持ちですか？</h1>
+                <h2 class="site-click">←Click!→</h2>
+                <div class="container">
+                    <div class="circle-bg-t">
+                        <i class="icon tension">気分</i>
+                    </div>
+                    <div class="outer-icons-t">
+                        <a href="https://www.youtube.com/embed/loU6qOZOxG8?ecver=1" class="icon-ureshi one" data-lity="data-lity"> </a>
+                        <a href="https://www.youtube.com/embed/s07bqXuXF9U?ecver=1" class="icon-oko two" data-lity="data-lity"> </a>
+                        <a href="https://www.youtube.com/embed/fQBsNmbXY98?ecver=1" class="icon-kanashi three" data-lity="data-lity"> </a>
+                        <a href="https://www.youtube.com/embed/o1sUaVJUeB0?ecver=1" class="icon-mu four" data-lity="data-lity"> </a>
+                    </div>
+                    <div class="circle-bg-w">
+                        <i class="icon weather">天気</i>
+                    </div>
+                    <div class="outer-icons-w">
+                        <a href="https://www.youtube.com/embed/adK2Fol2SkM" class="icon-hare five" data-lity="data-lity"> </a>
+                        <a href="https://www.youtube.com/embed/t5DEq8oLZuQ?ecver=1" class="icon-kumori six" data-lity="data-lity"> </a>
+                        <a href="https://www.youtube.com/embed/uhZBSFmNIf0?ecver=1" class="icon-ame seven" data-lity="data-lity"> </a>
+                        <a href="https://www.youtube.com/embed/AgfUewgwPOw?ecver=1" class="icon-yuki eight" data-lity="data-lity"> </a>
+                    </div>
+                </div>
+
+            </header>
+        </div>
+    </div>
+    <section class="about" id="about">
+        <h2 class="heading">ABOUT THIS SITE</h2>
+        <p class="about-text">
+            当サイトでは4つのキブンと4つの天気の8つに分けて
+            <br> あなたの気分にあった楽曲を紹介していきます。
+        </p>
+    </section>
+
+    <section class="request">
+
+        <!--ここから須藤がコードしました-->
+
+        <h2 class="heading">REQUEST FORM</h2>
+
+
+        <div class="request-form">
+
+            <div class="request-form-line">
+
+                <p class="request-name">お名前(Your Name)
+                    <br>
+                </p>
+                <input class="request-input-name" name="name" type="text" placeholder="例: 山田　太郎（Taro　Yamada）">
+                <br>
+
+                <p class="request-name">メールアドレス(e-mail address)
+                    <br>
+                </p>
+                <input class="request-input-name" name="name" type="text" placeholder="例: example@example.com">
+                <br>
+
+            </div>
+
+            <div class="request-form-line">
+
+                <p class="request-name">感情(Feeling)
+                </p>
+
+                <label class="request-input-feeling clearfix">
+                    <input class="request-input" name="application" type="radio" value="喜び">
+                    <span>喜(Happy)</span>
+                </label>
+                <label class="request-input-feeling clearfix">
+                    <input class="request-input" name="application" type="radio" value="怒り">
+                    <span>怒(Anger)</span>
+                </label>
+                <label class="request-input-feeling clearfix">
+                    <input class="request-input" name="application" type="radio" value="悲しみ">
+                    <span>哀(Sorrow)</span>
+                </label>
+                <label class="request-input-feeling clearfix">
+                    <input class="request-input" name="application" type="radio" value="楽しさ">
+                    <span>楽(Fun)</span>
+                </label>
+
+                <p class="request-name">天気(Weather)</p>
+
+                <label class="request-input-weather clearfix">
+                    <input class="request-input" name="application" type="radio" value="晴れ" checked="true">
+                    <span>晴れ(Fine)</span>
+                </label>
+                <label class="request-input-weather clearfix">
+                    <input class="request-input" name="application" type="radio" value="くもり">
+                    <span>くもり(Clowdy)</span>
+                </label>
+                <label class="request-input-weather clearfix">
+                    <input class="request-input" name="application" type="radio" value="雨">
+                    <span>雨(Rainy)</span>
+                </label>
+                <label class="request-input-weather clearfix">
+                    <input class="request-input" name="application" type="radio" value="ゲリラ">
+                    <span>嵐(Stormy)</span>
+                </label>
+
+                <center>
+                    <p class="request-name">リクエスト曲名(Request Song)</p>
+                </center>
+                <input class="request-input-name" name="name" type="text" placeholder="例: Happy Birthday to You">
+
+                <center>
+                    <p class="request-name">アーティスト名(Artists)</p>
+                </center>
+
+                <center>
+                    <input class="request-input-name" nane="name" type="text" placeholder="例: Michael Jackson">
+                </center>
+
+                <p class="request-input-episode">リクエスト理由(The reason)</p>
+                <center>
+                    <textarea class="request-episode" type="text" value="" placeholder="リクエスト曲に関するエピソードなど"></textarea>
+                </center>
+
+                <input class="request-submit" type="button" value="リクエストする(Request)">
+
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        @ Team Feelic
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/lity.min.css">
+    <script src="js/script.js"></script>
+    <script src="css/lity.min.js"></script>
+
+</body>
+
+</html>
